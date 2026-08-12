@@ -1,0 +1,20 @@
+# Terraform state files (contain sensitive data - IPs, IDs, sometimes secrets)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Variable files that might contain secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Key files
+*.pem
+*.ppk
